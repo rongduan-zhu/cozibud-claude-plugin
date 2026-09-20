@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "cozibud": {
+      "type": "http",
+      "url": "https://cozibud.com/api/mcp"
+    }
+  }
+}

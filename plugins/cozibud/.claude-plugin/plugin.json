@@ -1,0 +1,13 @@
+{
+  "name": "cozibud",
+  "displayName": "Cozibud",
+  "description": "Connect Claude Code to a caregiver's Cozibud household care log.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Rongduan Zhu"
+  },
+  "homepage": "https://docs.cozibud.com/connect-assistants",
+  "repository": "https://github.com/rongduan-zhu/cozibud-claude-plugin",
+  "license": "AGPL-3.0-or-later",
+  "keywords": ["caregiving", "baby-care", "mcp"]
+}
