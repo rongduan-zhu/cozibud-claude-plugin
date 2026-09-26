@@ -1,19 +1,21 @@
-# Cozibud for Claude Code
+# Cozibud for Claude
 
-Connect Claude Code to a caregiver's hosted Cozibud care log through MCP.
+Connect Claude to an adult caregiver's hosted Cozibud care log through its declared remote MCP server. The plugin includes one caregiver guidance skill and connects only to https://cozibud.com/api/mcp. It runs no local code and contains no credentials.
 
-This plugin is for parents and other adult caregivers. It is not intended for use by children, and it is not a medical device, source of medical advice, or emergency service.
+Cozibud can read and record household care such as sleep, feeding, diapers, pumping, activities, growth and temperature. Medication and symptom records are not available through assistant connections. The service is for parents and other adult caregivers, not children. It is a recordkeeping service, not a medical device, source of medical advice, or emergency service.
 
-## Install
+## Install in Claude Code
 
 ```text
 /plugin marketplace add rongduan-zhu/cozibud-claude-plugin
 /plugin install cozibud@cozibud-plugins
 ```
 
-Complete Cozibud sign-in and consent when Claude Code prompts you.
+Complete Cozibud sign-in and consent when prompted. Grant only the household and permissions you intend to use. You can revoke an assistant connection in Cozibud settings.
 
 - Documentation: https://docs.cozibud.com/connect-assistants
+- Privacy: https://cozibud.com/privacy
+- Terms: https://cozibud.com/terms
 - Support: https://cozibud.com/support
 
-Licensed under AGPL-3.0.
+The plugin is source visible under the terms in LICENSE. Earlier published versions retain their original license.
