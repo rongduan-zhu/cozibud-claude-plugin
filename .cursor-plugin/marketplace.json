@@ -1,0 +1,18 @@
+{
+  "name": "cozibud-plugins",
+  "owner": {
+    "name": "Rongduan Zhu"
+  },
+  "metadata": {
+    "description": "Cozibud care log connector for adult caregivers."
+  },
+  "plugins": [
+    {
+      "name": "cozibud",
+      "source": "plugins/cozibud",
+      "description": "Connect Cursor to an adult caregiver's Cozibud care log.",
+      "version": "0.3.0",
+      "license": "Apache-2.0"
+    }
+  ]
+}
